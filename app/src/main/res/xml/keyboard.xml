@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+        android:keyWidth="20%p"
+        android:horizontalGap="5dp"
+        android:verticalGap="5dp"
+        android:keyHeight="60dp">
+        <Row>
+            <Key android:codes="49" android:keyLabel="q" android:keyEdgeFlags="left"/>
+            <Key android:codes="50" android:keyLabel="w"/>
+            <Key android:codes="50" android:keyLabel="e"/>
+            <Key android:codes="50" android:keyLabel="r"/>
+            <Key android:codes="50" android:keyLabel="t"/>
+            <Key android:codes="50" android:keyLabel="y"/>
+            <Key android:codes="50" android:keyLabel="u"/>
+            <Key android:codes="50" android:keyLabel="i"/>
+            <Key android:codes="50" android:keyLabel="o"/>
+            <Key android:codes="53" android:keyLabel="p" android:keyEdgeFlags="right"/>
+        </Row>
+
+        <Row>
+            <Key android:codes="49" android:keyLabel="a" android:keyEdgeFlags="left"/>
+            <Key android:codes="50" android:keyLabel="s"/>
+            <Key android:codes="50" android:keyLabel="d"/>
+            <Key android:codes="50" android:keyLabel="f"/>
+            <Key android:codes="50" android:keyLabel="g"/>
+            <Key android:codes="50" android:keyLabel="h"/>
+            <Key android:codes="50" android:keyLabel="j"/>
+            <Key android:codes="50" android:keyLabel="k"/>
+            <Key android:codes="53" android:keyLabel="l" android:keyEdgeFlags="right"/>
+        </Row>
+
+        <Row>
+            <Key android:codes="49" android:keyLabel="z" android:keyEdgeFlags="left"/>
+            <Key android:codes="50" android:keyLabel="x"/>
+            <Key android:codes="50" android:keyLabel="c"/>
+            <Key android:codes="50" android:keyLabel="v"/>
+            <Key android:codes="50" android:keyLabel="b"/>
+            <Key android:codes="50" android:keyLabel="n"/>
+            <Key android:codes="50" android:keyLabel="m"/>
+            <Key android:codes="53" android:keyLabel="DELETE" android:keyEdgeFlags="right"/>
+        </Row>
+
+
+
+        <Row>
+            <Key android:codes="-5"
+                android:keyLabel="DELETE"
+                android:keyWidth="40%p"
+                android:keyEdgeFlags="left"
+                android:isRepeatable="true"/>
+            <Key android:codes="10"
+                android:keyLabel="ENTER"
+                android:keyWidth="60%p"
+                android:keyEdgeFlags="right"/>
+        </Row>
+
+    </Keyboard>
